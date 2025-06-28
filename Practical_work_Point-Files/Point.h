@@ -13,9 +13,6 @@ public:
 	Point& operator ++();
 	bool operator >(const Point& other) const;
 	bool operator <(const Point& other) const;
-	/*{
-		return (x * x + y * y) < (other.x * other.x + other.y * other.y);
-	}*/
 	Point operator !() const;
 };
 
