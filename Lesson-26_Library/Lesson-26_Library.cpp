@@ -61,6 +61,8 @@ int main()
 
     new2 = newLib = lib;
 
+    new2.ShowLibrary();
+
 
 
 
