@@ -118,6 +118,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practical_work_Point-Files"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18_Homework_PhoneBook", "18_Homework_PhoneBook\18_Homework_PhoneBook.vcxproj", "{0AFAA0E9-B52D-4C52-B43D-0C0A120F2936}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19_Homework_Array", "19_Homework_Array\19_Homework_Array.vcxproj", "{B83C4511-48E6-4952-9F7C-6C2B104C84BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -590,6 +592,14 @@ Global
 		{0AFAA0E9-B52D-4C52-B43D-0C0A120F2936}.Release|x64.Build.0 = Release|x64
 		{0AFAA0E9-B52D-4C52-B43D-0C0A120F2936}.Release|x86.ActiveCfg = Release|Win32
 		{0AFAA0E9-B52D-4C52-B43D-0C0A120F2936}.Release|x86.Build.0 = Release|Win32
+		{B83C4511-48E6-4952-9F7C-6C2B104C84BC}.Debug|x64.ActiveCfg = Debug|x64
+		{B83C4511-48E6-4952-9F7C-6C2B104C84BC}.Debug|x64.Build.0 = Debug|x64
+		{B83C4511-48E6-4952-9F7C-6C2B104C84BC}.Debug|x86.ActiveCfg = Debug|Win32
+		{B83C4511-48E6-4952-9F7C-6C2B104C84BC}.Debug|x86.Build.0 = Debug|Win32
+		{B83C4511-48E6-4952-9F7C-6C2B104C84BC}.Release|x64.ActiveCfg = Release|x64
+		{B83C4511-48E6-4952-9F7C-6C2B104C84BC}.Release|x64.Build.0 = Release|x64
+		{B83C4511-48E6-4952-9F7C-6C2B104C84BC}.Release|x86.ActiveCfg = Release|Win32
+		{B83C4511-48E6-4952-9F7C-6C2B104C84BC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
