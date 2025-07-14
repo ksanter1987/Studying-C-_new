@@ -140,6 +140,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "31_QueueWithPriority", "31_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practicalwork_Stack", "Practicalwork_Stack\Practicalwork_Stack.vcxproj", "{E717B9ED-217D-4E5C-BBAE-F591B8F6BFB1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "21_Homework_Move Constructor", "21_Homework_Move Constructor\21_Homework_Move Constructor.vcxproj", "{F9F45E8E-84A4-42B1-87A5-FB43A4B194FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -700,6 +702,14 @@ Global
 		{E717B9ED-217D-4E5C-BBAE-F591B8F6BFB1}.Release|x64.Build.0 = Release|x64
 		{E717B9ED-217D-4E5C-BBAE-F591B8F6BFB1}.Release|x86.ActiveCfg = Release|Win32
 		{E717B9ED-217D-4E5C-BBAE-F591B8F6BFB1}.Release|x86.Build.0 = Release|Win32
+		{F9F45E8E-84A4-42B1-87A5-FB43A4B194FE}.Debug|x64.ActiveCfg = Debug|x64
+		{F9F45E8E-84A4-42B1-87A5-FB43A4B194FE}.Debug|x64.Build.0 = Debug|x64
+		{F9F45E8E-84A4-42B1-87A5-FB43A4B194FE}.Debug|x86.ActiveCfg = Debug|Win32
+		{F9F45E8E-84A4-42B1-87A5-FB43A4B194FE}.Debug|x86.Build.0 = Debug|Win32
+		{F9F45E8E-84A4-42B1-87A5-FB43A4B194FE}.Release|x64.ActiveCfg = Release|x64
+		{F9F45E8E-84A4-42B1-87A5-FB43A4B194FE}.Release|x64.Build.0 = Release|x64
+		{F9F45E8E-84A4-42B1-87A5-FB43A4B194FE}.Release|x86.ActiveCfg = Release|Win32
+		{F9F45E8E-84A4-42B1-87A5-FB43A4B194FE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
