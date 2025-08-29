@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 class Shape
@@ -92,14 +93,54 @@ public:
         cout << "Shape: " << name << " (" << type << "), sides = " << sideA << ", " << sideB << ", " << sideC << endl;
     }
 
-    double GetArea() override
-    {
+    double GetArea() override {
+        double p = (sideA + sideB + sideC) / 2.0;
+        double s = p * (p - sideA) * (p - sideB) * (p - sideC);
 
+        if (s <= 0) return 0;
+        return sqrt(s);
     }
 };
+class Trapezoid : public Shape
+{
+    double baseA, baseB, height;
+public:
+    Trapezoid(double a, double b, double h) : Shape("Trapezoid", "Quadrangle")
+    {
+        this->baseA = (a > 0) ? a : 1;
+        this->baseB = (b > 0) ? b : 1;
+        this->height = (h > 0) ? h : 1;
+    }
+
+    void Show() override
+    {
+        cout << "Shape: " << name << " (" << type << "), bases = " << baseA << ", " << baseB << ", height = " << height << endl;
+    }
+
+    double GetArea() override
+    {
+        return 0.5 * (baseA + baseB) * height;
+    }
+};
+void TestShape(Shape& s)
+{
+    s.Show();
+    cout << "Area = " << s.GetArea() << endl;
+    cout << "---------------------------------------------------------" << endl;
+}
 
 int main()
 {
-    
+    Rectangle r(5, 10);
+    Circle c(7);
+    RightTriangle rt(3, 4);
+    SimpleTriangle st(3, 4, 5);
+    Trapezoid tr(6, 10, 5);
+
+    TestShape(r);
+    TestShape(c);
+    TestShape(rt);
+    TestShape(st);
+    TestShape(tr);
 }
 
