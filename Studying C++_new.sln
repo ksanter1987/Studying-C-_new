@@ -186,6 +186,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Homework_Virtual_Destructor
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Homework_Agregation_Composition", "Homework_Agregation_Composition\Homework_Agregation_Composition.vcxproj", "{5F6E950D-6C07-4C99-BDD7-AA579456FCAA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Homework_Files", "Homework_Files\Homework_Files.vcxproj", "{6F23ECDE-8933-409C-94FB-ED72ACEE065F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -930,6 +932,14 @@ Global
 		{5F6E950D-6C07-4C99-BDD7-AA579456FCAA}.Release|x64.Build.0 = Release|x64
 		{5F6E950D-6C07-4C99-BDD7-AA579456FCAA}.Release|x86.ActiveCfg = Release|Win32
 		{5F6E950D-6C07-4C99-BDD7-AA579456FCAA}.Release|x86.Build.0 = Release|Win32
+		{6F23ECDE-8933-409C-94FB-ED72ACEE065F}.Debug|x64.ActiveCfg = Debug|x64
+		{6F23ECDE-8933-409C-94FB-ED72ACEE065F}.Debug|x64.Build.0 = Debug|x64
+		{6F23ECDE-8933-409C-94FB-ED72ACEE065F}.Debug|x86.ActiveCfg = Debug|Win32
+		{6F23ECDE-8933-409C-94FB-ED72ACEE065F}.Debug|x86.Build.0 = Debug|Win32
+		{6F23ECDE-8933-409C-94FB-ED72ACEE065F}.Release|x64.ActiveCfg = Release|x64
+		{6F23ECDE-8933-409C-94FB-ED72ACEE065F}.Release|x64.Build.0 = Release|x64
+		{6F23ECDE-8933-409C-94FB-ED72ACEE065F}.Release|x86.ActiveCfg = Release|Win32
+		{6F23ECDE-8933-409C-94FB-ED72ACEE065F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
